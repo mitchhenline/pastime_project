@@ -10,18 +10,14 @@ header {
     border-bottom-color: rgb(210, 210, 210);
     border-bottom-width: 1px;
     position: sticky;
-    top: 0px;
+    top: 10px;
     display: flex;
     justify-content: space-around;
 }
 
-.nav {
-    color:(rgba(255, 211, 154, 0.75));
-}
-
 #stadium-photo {
     background-image: url("https://images.unsplash.com/photo-1593558209560-2ac5abd19cf8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
-    height: 400px;
+    height: 475px;
     background-position: center;
     margin-bottom: -50px;
     margin-top: -60px;
@@ -41,8 +37,10 @@ header {
 }
 
 #title-header {
+    margin-top: -20;
     font-size: 50px;
     font-family: 'Homemade Apple', cursive;
+    color: rgba(0, 0, 0, 0.73);
 }
 
 #title-subheader {
