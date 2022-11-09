@@ -96,3 +96,63 @@ header {
     background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
 
 }
+
+.MLB-dropdown {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+
+}
+
+.triple-A-dropdown {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+
+}
+
+.double-A-dropdown {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+
+}
+
+.high-A-dropdown {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+
+}
+
+.single-A-dropdown {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+
+}
