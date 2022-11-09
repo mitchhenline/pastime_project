@@ -97,7 +97,7 @@ header {
 
 }
 
-.MLB-dropdown {
+.mlbDropdown {
     position: absolute;
     top: 80px;
     left: 80px;
@@ -148,6 +148,30 @@ header {
 .single-A-dropdown {
     position: absolute;
     top: 80px;
+    left: 80px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+
+}
+
+.american-league-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+
+}
+
+.national-league-dropdown {
+    position: absolute;
+    top: 120px;
     left: 80px;
     border-width: 1px;
     border-color: darkgray;
