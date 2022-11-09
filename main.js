@@ -48,6 +48,7 @@ addMLBDropdown = (element) => {
          } else {
          console.log("hmmm")
          }
+
      })
 }
 
@@ -105,6 +106,9 @@ addSingleADropdown = (element) => {
 
     queryBox.appendChild(singleADropdown)
 }
+/////////////////////////////////////////////////////
+//-----------MLB DROPDOWN TEAM LISTS----------------//
+/////////////////////////////////////////////////////
 
 addAmericanLeagueDropdown = (element) => {
     const americanLeagueDropdown = document.createElement('select')
@@ -130,6 +134,15 @@ addAmericanLeagueDropdown = (element) => {
     </select>`
 
     queryBox.appendChild(americanLeagueDropdown)
+
+    americanLeagueDropdown.addEventListener('change', function handleChange(event){
+        if (event.target.value === "baltimore-orioles"){
+         console.log("WE'RE GOING TO CAMDEN")
+         } else {
+         console.log("hmmm")
+         }
+
+     })
 }
 
 addNationalLeagueDropdown = (element) => {
@@ -156,4 +169,13 @@ addNationalLeagueDropdown = (element) => {
     </select>`
 
     queryBox.appendChild(nationalLeagueDropdown)
+
+    nationalLeagueDropdown.addEventListener('change', function handleChange(event){
+        if (event.target.value === "arizona-diamondbacks"){
+         console.log("Chase Field is the spot")
+         } else {
+         console.log("hmmm")
+         }
+
+     })
 }
