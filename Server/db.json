@@ -1,0 +1,11 @@
+[
+    {
+      "id": 1,
+      "title": "The Oriole Park at Camden Yards",
+      "team": "Baltimore Orioles",
+      "city": "Baltimore, Maryland",
+      "opened": "April 6, 1992",
+      "capacity": "45,971",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/d/d8/Camden_Yards.jpg"
+    }
+  ]

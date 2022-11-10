@@ -4,6 +4,11 @@ const doubleADropdown = document.getElementById("double-A-dropdown")
 const highADropdown = document.getElementById("high-A-dropdown")
 const singleADropdown = document.getElementById("single-A-dropdown")
 const queryBox = document.getElementById("query-box")
+const parkInfoBox = document.getElementById("park-info-box")
+//const orioles = getElementById("baltimore-orioles") . need this??
+
+
+const baseURL = `http://localhost:4500`
 
 //------------------------DROPDOWN MENU-------------------------------//
 
@@ -138,6 +143,7 @@ addAmericanLeagueDropdown = (element) => {
     americanLeagueDropdown.addEventListener('change', function handleChange(event){
         if (event.target.value === "baltimore-orioles"){
          console.log("WE'RE GOING TO CAMDEN")
+         getPark()
          } else {
          console.log("hmmm")
          }
@@ -179,3 +185,27 @@ addNationalLeagueDropdown = (element) => {
 
      })
 }
+
+const getPark = () => {
+    axios.get("http://localhost:4500/api/park/")
+        .then(res => {
+            const data = res.data;
+            createParkCard(data)
+    })
+};
+
+createParkCard = park => {
+    const parkCard = document.createElement('div')
+    parkCard.classList.add('park-card')
+
+    parkCard.innerHTML = `<img alt="park picture" src=${park.imageURL} class="park-picture"/>
+    <p class ="park-title">${park.title}</p>
+    <p class ="team-name">${park.team}</p>
+    <p class ="park-city">${park.city}</p>
+    <p class ="park-opened">${park.opened}</p>
+    <p class ="park.capacity">${park.capacity}</p>
+    </div>`
+
+    parkInfoBox.appendChild(parkCard)
+};
+
