@@ -1,122 +1,166 @@
 [
     {
       "id": 1,
-      "title": "The Oriole Park at Camden Yards",
       "teamId": "baltimore-orioles",
+      "title": "The Oriole Park at Camden Yards",
       "team": "Baltimore Orioles",
       "city": "Baltimore, Maryland",
-      "opened": "April 6, 1992",
-      "capacity": "45,971",
+      "opened": "Opened: April 6, 1992",
+      "capacity": "Capacity: 45,971",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/d/d8/Camden_Yards.jpg"
     },
 
     {
       "id": 2,
+      "teamId": "boston-red-sox",
       "title": "Fenway Park",
       "team": "Boston Red Sox",
       "city": "Boston, Massachusetts",
-      "opened": "April 20, 1912",
-      "capacity": "37,731",
+      "opened": "Opened: April 20, 1912",
+      "capacity": "Capacity: 37,731",
       "imageURL" : "https://www.ballparksofbaseball.com/wp-content/uploads/2016/03/fenway13952-1.jpg"
     },
 
     {
       "id": 3,
       "title": "Guaranteed Rate Field",
+      "teamId": "chicago-white-sox",
       "team": "Chicago White Sox",
       "city": "Chicago, Illinois",
-      "opened": "April 18, 1991",
-      "capacity": "40,615",
+      "opened": "Opened: April 18, 1991",
+      "capacity": "Capacity 40,615",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/U.S._Cellular_Field_%2830972191694%29.jpg/1280px-U.S._Cellular_Field_%2830972191694%29.jpg"
     },
 
     {
       "id": 4,
       "title": "Progressive Field",
+      "teamId": "cleveland-guardians",
       "team": "Cleveland Guardians",
       "city": "Cleveland, Ohio",
-      "opened": "April 2, 1994",
-      "capacity": "35,041",
+      "opened": "Opened: April 2, 1994",
+      "capacity": "Capacity: 35,041",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Progressive_Field%2C_June_2019_%285%29.jpg/1280px-Progressive_Field%2C_June_2019_%285%29.jpg"
     },
 
     {
       "id": 5,
       "title": "Comerica Park",
+      "teamId": "detroit-tigers",
       "team": "Detroit Tigers",
       "city": "Detroit, Michigan",
-      "opened": "April 11, 2000",
-      "capacity": "41,083",
+      "opened": "Opened: April 11, 2000",
+      "capacity": "Capacity: 41,083",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tigers_opening_day2_2007.jpg"
     },
 
     {
       "id": 6,
       "title": "Minute Maid Park",
+      "teamId": "houston-astros",
       "team": "Houston Astros",
       "city": "Houston, Texas",
-      "opened": "March 30, 2000",
-      "capacity": "41,168",
+      "opened": "Opened: March 30, 2000",
+      "capacity": "Capacity: 41,168",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Minute_Maid_Park_2016-04-23.jpg/1920px-Minute_Maid_Park_2016-04-23.jpg"
     },
 
     {
       "id": 7,
       "title": "Kauffman Stadium",
+      "teamId": "kansas-city-royals",
       "team": "Kansas City Royals",
       "city": "Kansas City, Missouri",
-      "opened": "April 10, 1973",
-      "capacity": "37,309",
+      "opened": "Opened: April 10, 1973",
+      "capacity": "Capacity: 37,309",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/3/35/Kauffman2017.jpg"
     },
 
     {
       "id": 8,
       "title": "Angel Stadium of Anaheim",
+      "teamId": "los-angeles-angels",
       "team": "Los Angeles Angels",
       "city": "Anaheim, California",
-      "opened": "April 19, 1966",
-      "capacity": "43,250",
+      "opened": "Opened: April 19, 1966",
+      "capacity": "Capacity: 43,250",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Angelstadiummarch2019.jpg/1280px-Angelstadiummarch2019.jpg"
     },
 
     {
       "id": 9,
       "title": "Target Field",
+      "teamId": "minnesota-twins",
       "team": "Minnesota Twins",
       "city": "Minneapolis, Minnesota",
-      "opened": "April 12, 2010",
-      "capacity": "38,544",
+      "opened": "Opened: April 12, 2010",
+      "capacity": "Capacity: 38,544",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Target_Field_Aerial.jpg/1920px-Target_Field_Aerial.jpg"
     },
 
     {
       "id": 10,
       "title": "Yankee Stadium",
+      "teamId": "new-york-yankees",
       "team": "New York Yankees",
       "city": "New York City, New York",
-      "opened": "April 2, 2009",
-      "capacity": "46,537",
+      "opened": "Opened: April 2, 2009",
+      "capacity": "Capacity: 46,537",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Yankee_Stadium_upper_deck_2010.jpg/1280px-Yankee_Stadium_upper_deck_2010.jpg"
     },
 
     {
       "id": 11,
       "title": "Oakland Coliseum",
+      "teamId": "oakland-athletics",
       "team": "Oakland Athletics",
       "city": "Oakland, California",
-      "opened": "September 18, 1966",
-      "capacity": "56,782",
+      "opened": "Opened: September 18, 1966",
+      "capacity": "Capacity: 56,782",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/McAfee_Coliseum_%2815993646150%29.jpg/1280px-McAfee_Coliseum_%2815993646150%29.jpg"
     },
 
     {
       "id": 12,
-      "title": "Oakland Coliseum",
-      "team": "Oakland Athletics",
-      "city": "Oakland, California",
-      "opened": "September 18, 1966",
-      "capacity": "56,782",
-      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/McAfee_Coliseum_%2815993646150%29.jpg/1280px-McAfee_Coliseum_%2815993646150%29.jpg"
+      "title": "T-Mobile Park",
+      "teamId": "seattle-mariners",
+      "team": "Seattle Mariners",
+      "city": "Seattle, Washington",
+      "opened": "Opened: July 15, 1999",
+      "capacity": "Capacity: 47,929",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/SafecoFieldTop.jpg/2560px-SafecoFieldTop.jpg"
+    },
+
+    {
+      "id": 13,
+      "title": "Tropicana Field",
+      "teamId": "tampa-bay-rays",
+      "team": "Tampa Bay Rays",
+      "city": "St. Petersburg, Florida",
+      "opened": "Opened: March 3, 1990",
+      "capacity": "Capacity: 42,735",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/e/e1/Tropicana_Field_Playing_Field_Opening_Day_2010.JPG"
+    },
+
+    {
+      "id": 14,
+      "title": "Globe Life Field",
+      "teamId": "texas-rangers",
+      "team": "Texas Rangers",
+      "city": "Arlington, Texas",
+      "opened": "Opened: July 21, 2020",
+      "capacity": "Capacity: 40,300",
+      "imageURL" : "https://dmn-dallas-news-prod.cdn.arcpublishing.com/resizer/-qAUzdQdbuMm_d5Ke95u6SIdUU4=/1660x934/smart/filters:no_upscale()/cloudfront-us-east-1.images.arcpublishing.com/dmn/5COXH2C7AFDWJAQULG7PKSCURM.jpg"
+    },
+
+    {
+      "id": 15,
+      "title": "Rogers Centre",
+      "teamId": "toronto-blue-jays",
+      "team": "Toronto Blue Jays",
+      "city": "Toronto, Ontario, Canada",
+      "opened": "Opened: June 3, 1989",
+      "capacity": "Capacity: 49,262",
+      "imageURL" : "https://static01.nyt.com/images/2021/07/16/sports/16mlb-bluejays/merlin_174507471_cbf8c2e9-67a4-4c72-bc6c-d8277d8edf17-superJumbo.jpg"
     }
   ]

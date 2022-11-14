@@ -5,7 +5,6 @@ const highADropdown = document.getElementById("high-A-dropdown")
 const singleADropdown = document.getElementById("single-A-dropdown")
 const queryBox = document.getElementById("query-box")
 const parkInfoBox = document.getElementById("park-info-box")
-//const orioles = getElementById("baltimore-orioles") . need this??
 
 
 const baseURL = `http://localhost:4500`
@@ -196,7 +195,7 @@ createParkCard = park => {
     <p class ="team-name">${park.team}</p>
     <p class ="park-city">${park.city}</p>
     <p class ="park-opened">${park.opened}</p>
-    <p class ="park.capacity">${park.capacity}</p>
+    <p class ="park-capacity">${park.capacity}</p>
     </div>`
 
     parkInfoBox.appendChild(parkCard)

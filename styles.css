@@ -57,22 +57,12 @@ header {
     background-position: center;
 }
 
-#query-box {
-    position: relative;
-    height: 400px;
-    width: 600px;
-    padding-left: 25px;
-    margin-top: 100px;
-    margin-left: 200px;
-    background-image: linear-gradient( rgb(245, 245, 245, .7), rgb(255, 255, 255, .45));
-    border-radius: 5%;
-    background-position: center;
-}
+
 
 #random-button {
     position: absolute;
     bottom: 25px;
-    left: 80px;
+    left: 25px;
     border-width: 1px;
     border-color: darkgray;
     border-top: none;
@@ -88,7 +78,7 @@ header {
 .dropdown {
     position: absolute;
     top: 35px;
-    left: 80px;
+    left: 25px;
     border-width: 1px;
     border-color: darkgray;
     border-top: none;
@@ -100,7 +90,7 @@ header {
 .mlbDropdown {
     position: absolute;
     top: 80px;
-    left: 80px;
+    left: 25px;
     border-width: 1px;
     border-color: darkgray;
     border-top: none;
@@ -112,7 +102,7 @@ header {
 .triple-A-dropdown {
     position: absolute;
     top: 80px;
-    left: 80px;
+    left: 25px;
     border-width: 1px;
     border-color: darkgray;
     border-top: none;
@@ -124,7 +114,7 @@ header {
 .double-A-dropdown {
     position: absolute;
     top: 80px;
-    left: 80px;
+    left: 25px;
     border-width: 1px;
     border-color: darkgray;
     border-top: none;
@@ -136,7 +126,7 @@ header {
 .high-A-dropdown {
     position: absolute;
     top: 80px;
-    left: 80px;
+    left: 25px;
     border-width: 1px;
     border-color: darkgray;
     border-top: none;
@@ -148,7 +138,7 @@ header {
 .single-A-dropdown {
     position: absolute;
     top: 80px;
-    left: 80px;
+    left: 25px;
     border-width: 1px;
     border-color: darkgray;
     border-top: none;
@@ -160,7 +150,7 @@ header {
 .american-league-dropdown {
     position: absolute;
     top: 120px;
-    left: 80px;
+    left: 25px;
     border-width: 1px;
     border-color: darkgray;
     border-top: none;
@@ -172,11 +162,67 @@ header {
 .national-league-dropdown {
     position: absolute;
     top: 120px;
-    left: 80px;
+    left: 25px;
     border-width: 1px;
     border-color: darkgray;
     border-top: none;
     border-left: none;
     background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
 
+#query-box {
+    position: relative;
+    height: 315px;
+    width: 1000px;
+    padding-left: 25px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-image: linear-gradient( rgb(245, 245, 245, .7), rgb(255, 255, 255, .45));
+    border-radius: 5%;
+    background-position: center;
+}
+
+.park-picture {
+    top: 15px;
+    position: absolute;
+    right: 25px;
+    height: 280px;
+    border-radius: 5%;
+}
+
+.park-title {
+    font-family: 'Homemade Apple', cursive;
+    position: absolute;
+    top: 65px;
+    left: 220px;
+    font-weight:bold;
+    font-size: 19px;
+}
+
+.team-name {
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    font-size: 18px;
+}
+
+.park-city {
+    position: absolute;
+    top: 125px;
+    left: 300px;
+    font-size: 18px;
+}
+
+.park-opened {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-size: 18px;
+}
+
+.park-capacity {
+    position: absolute;
+    top: 175px;
+    left: 300px;
+    font-size: 18px;
 }
