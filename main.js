@@ -115,7 +115,7 @@ addSingleADropdown = (element) => {
 
 addAmericanLeagueDropdown = (element) => {
     const americanLeagueDropdown = document.createElement('div')
-    americanLeagueDropdown.classList.add('american-league-dropdown') //change class list to id and assign dropdown class
+    americanLeagueDropdown.classList.add('american-league-dropdown')
 
     americanLeagueDropdown.innerHTML = `<select name="americanLeagueDropdown" id="americanLeagueDropdown" onchange="getPark(event)">
     <option class="button" id="select-team">Select Team</option>
@@ -142,10 +142,10 @@ addAmericanLeagueDropdown = (element) => {
 
 addNationalLeagueDropdown = (element) => {
     const nationalLeagueDropdown = document.createElement('div')
-    nationalLeagueDropdown.classList.add('national-league-dropdown') //change class list to id and assign dropdown class
+    nationalLeagueDropdown.classList.add('national-league-dropdown') 
 
     nationalLeagueDropdown.innerHTML = `<select name="nationalLeagueDropdown" id="nationalLeagueDropdown" onchange="getPark(event)">
-    <option class="button" id="select-team" value="select-team">Select Team</option>
+    <option class="button" id="select-team">Select Team</option>
     <option class="button" id="arizona-diamonbacks" value="arizona-diamondbacks">Arizona Diamondbacks</option>
     <option class="button" id="atlanta-braves" value="atlanta-braves">Atlanta Braves</option>
     <option class="button" id="chicago-cubs" value="chicago-cubs">Chicago Cubs</option>
@@ -164,19 +164,9 @@ addNationalLeagueDropdown = (element) => {
     </select>`
 
     queryBox.appendChild(nationalLeagueDropdown)
-
-    // nationalLeagueDropdown.addEventListener('change', function handleChange(event){
-    //     if (event.target.value === "arizona-diamondbacks"){
-    //      console.log("Chase Field is the spot")
-    //      } else {
-    //      console.log("hmmm")
-    //      }
-
-    //  })
 }
 
 const getPark = (event) => {
-    // console.log(event.target.value)
     const team = event.target.value
     axios.get(`http://localhost:4500/api/park/${team}`)
         .then(res => {

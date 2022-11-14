@@ -162,5 +162,71 @@
       "opened": "Opened: June 3, 1989",
       "capacity": "Capacity: 49,262",
       "imageURL" : "https://static01.nyt.com/images/2021/07/16/sports/16mlb-bluejays/merlin_174507471_cbf8c2e9-67a4-4c72-bc6c-d8277d8edf17-superJumbo.jpg"
+    },
+
+    {
+      "id": 16,
+      "title": "Chase Field",
+      "teamId": "arizona-diamondbacks",
+      "team": "Arizona Diamondbacks",
+      "city": "Pheonix, Arizona",
+      "opened": "Opened: March 31, 1998",
+      "capacity": "Capacity: 48,405",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Chase_Field_%2816154688086%29.jpg/2560px-Chase_Field_%2816154688086%29.jpg"
+    },
+
+    {
+      "id": 17,
+      "title": "Truist Park",
+      "teamId": "atlanta-braves",
+      "team": "Atlanta Braves",
+      "city": "Atlanta, Georgia",
+      "opened": "Opened: March 31, 2017",
+      "capacity": "Capacity: 41,084",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/SunTrust_Park_Opening_Day_2017.jpg/2560px-SunTrust_Park_Opening_Day_2017.jpg"
+    },
+
+    {
+      "id": 18,
+      "title": "Wrigley Field",
+      "teamId": "chicago-cubs",
+      "team": "Chicago Cubs",
+      "city": "Chicago, Illinois",
+      "opened": "Opened: April 23, 1914",
+      "capacity": "Capacity: 41,649",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Wrigley_Field_in_line_with_sign.jpg/2880px-Wrigley_Field_in_line_with_sign.jpg"
+    },
+
+    {
+      "id": 19,
+      "title": "The Great American Ball Park",
+      "teamId": "cincinnati-reds",
+      "team": "Cincinnati Reds",
+      "city": "Cincinnati, Ohio",
+      "opened": "Opened: March 31, 2003",
+      "capacity": "Capacity: 43,500",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Great_American_Ball_Park_%2815561187833%29.jpg/2560px-Great_American_Ball_Park_%2815561187833%29.jpg"
+    },
+
+    {
+      "id": 20,
+      "title": "Coors Field",
+      "teamId": "colorado-rockies",
+      "team": "Colorado Rockies",
+      "city": "Denver, Colorado",
+      "opened": "Opened: April 26, 1995",
+      "capacity": "Capacity: 46,897",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Coors_Field_July_2015.jpg/2560px-Coors_Field_July_2015.jpg"
+    },
+
+    {
+      "id": 20,
+      "title": "Dodger Stadium",
+      "teamId": "los-angeles-dodgers",
+      "team": "Los Angeles Dodgers",
+      "city": "Los Angeles, California",
+      "opened": "Opened: April 10, 1962",
+      "capacity": "Capacity: 56,000",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/d/d2/Dodger_Stadium_field_from_upper_deck_2015-10-04.jpg"
     }
   ]
