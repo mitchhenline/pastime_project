@@ -53,7 +53,6 @@ addMLBDropdown = (element) => {
          } else {
          console.log("hmmm")
          }
-
      })
 }
 
@@ -119,9 +118,9 @@ addAmericanLeagueDropdown = (element) => {
     const americanLeagueDropdown = document.createElement('select')
     americanLeagueDropdown.classList.add('american-league-dropdown') //change class list to id and assign dropdown class
 
-    americanLeagueDropdown.innerHTML = `<select name="americanLeagueDropdown" id="americanLeagueDropdown">
+    americanLeagueDropdown.innerHTML = `<select name="americanLeagueDropdown" id="americanLeagueDropdown" onchange="getPark()">
     <option class="button" id="select-team" value="select-team">Select Team</option>
-    <option class="button" id="baltimore-orioles" value="baltimore-orioles">Baltimore Orioles</option>
+    <option class="button" id="baltimore-orioles" value="baltimore-orioles" onclick="getPark()">Baltimore Orioles</option>
     <option class="button" id="boston-red-sox" value="boston-red-sox">Boston Red Sox</option>
     <option class="button" id="chicago-white-sox" value="chicago-white-sox">Chicago White Sox</option>
     <option class="button" id="cleveland-guardians" value="cleveland-guardians">Cleveland Guardians</option>
@@ -140,15 +139,18 @@ addAmericanLeagueDropdown = (element) => {
 
     queryBox.appendChild(americanLeagueDropdown)
 
-    americanLeagueDropdown.addEventListener('change', function handleChange(event){
-        if (event.target.value === "baltimore-orioles"){
-         console.log("WE'RE GOING TO CAMDEN")
-         getPark()
-         } else {
-         console.log("hmmm")
-         }
+    // americanLeagueDropdown.addEventListener('change', function handleChange(event){
+        // let teamName = document.querySelector("#americanLeagueDropdown")
+        // console.log(teamName.value)
+        // if (event.target.value === "baltimore-orioles"){
+        //  console.log("WE'RE GOING TO CAMDEN")
+        //  getPark() //line189
+        //  } else {
+        //  console.log("hmmm")
+        //  }
 
-     })
+//      })
+
 }
 
 addNationalLeagueDropdown = (element) => {
@@ -186,12 +188,13 @@ addNationalLeagueDropdown = (element) => {
      })
 }
 
-const getPark = () => {
-    axios.get("http://localhost:4500/api/park/")
-        .then(res => {
-            const data = res.data;
-            createParkCard(data)
-    })
+const getPark = (event) => {
+    console.log(event.target.value)
+    // axios.get("http://localhost:4500/api/park/")
+    //     .then(res => {
+    //         const data = res.data;
+    //         createParkCard(data)
+    // })
 };
 
 createParkCard = park => {
