@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(cors())
 
 const {getPark} = require("./controller.js")
-app.get("/api/park", getPark);
+app.get("/api/park/:team", getPark);
 
 
 

@@ -2,6 +2,7 @@
     {
       "id": 1,
       "title": "The Oriole Park at Camden Yards",
+      "teamId": "baltimore-orioles",
       "team": "Baltimore Orioles",
       "city": "Baltimore, Maryland",
       "opened": "April 6, 1992",
@@ -100,7 +101,7 @@
     },
 
     {
-      "id": 13,
+      "id": 11,
       "title": "Oakland Coliseum",
       "team": "Oakland Athletics",
       "city": "Oakland, California",
@@ -110,7 +111,7 @@
     },
 
     {
-      "id": 14,
+      "id": 12,
       "title": "Oakland Coliseum",
       "team": "Oakland Athletics",
       "city": "Oakland, California",

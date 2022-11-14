@@ -118,9 +118,9 @@ addAmericanLeagueDropdown = (element) => {
     const americanLeagueDropdown = document.createElement('div')
     americanLeagueDropdown.classList.add('american-league-dropdown') //change class list to id and assign dropdown class
 
-    americanLeagueDropdown.innerHTML = `<select value="test" name="americanLeagueDropdown" id="americanLeagueDropdown" onchange="getPark(event)">
+    americanLeagueDropdown.innerHTML = `<select name="americanLeagueDropdown" id="americanLeagueDropdown" onchange="getPark(event)">
     <option class="button" id="select-team">Select Team</option>
-    <option class="button" id="baltimore-orioles" value="baltimore-orioles" onclick="getPark()">Baltimore Orioles</option>
+    <option class="button" id="baltimore-orioles" value="baltimore-orioles">Baltimore Orioles</option>
     <option class="button" id="boston-red-sox" value="boston-red-sox">Boston Red Sox</option>
     <option class="button" id="chicago-white-sox" value="chicago-white-sox">Chicago White Sox</option>
     <option class="button" id="cleveland-guardians" value="cleveland-guardians">Cleveland Guardians</option>
@@ -139,25 +139,13 @@ addAmericanLeagueDropdown = (element) => {
 
     queryBox.appendChild(americanLeagueDropdown)
 
-    // americanLeagueDropdown.addEventListener('change', function handleChange(event){
-        // let teamName = document.querySelector("#americanLeagueDropdown")
-        // console.log(teamName.value)
-        // if (event.target.value === "baltimore-orioles"){
-        //  console.log("WE'RE GOING TO CAMDEN")
-        //  getPark() //line189
-        //  } else {
-        //  console.log("hmmm")
-        //  }
-
-//      })
-
 }
 
 addNationalLeagueDropdown = (element) => {
-    const nationalLeagueDropdown = document.createElement('select')
+    const nationalLeagueDropdown = document.createElement('div')
     nationalLeagueDropdown.classList.add('national-league-dropdown') //change class list to id and assign dropdown class
 
-    nationalLeagueDropdown.innerHTML = `<select name="nationalLeagueDropdown" id="nationalLeagueDropdown">
+    nationalLeagueDropdown.innerHTML = `<select name="nationalLeagueDropdown" id="nationalLeagueDropdown" onchange="getPark(event)">
     <option class="button" id="select-team" value="select-team">Select Team</option>
     <option class="button" id="arizona-diamonbacks" value="arizona-diamondbacks">Arizona Diamondbacks</option>
     <option class="button" id="atlanta-braves" value="atlanta-braves">Atlanta Braves</option>
@@ -178,22 +166,23 @@ addNationalLeagueDropdown = (element) => {
 
     queryBox.appendChild(nationalLeagueDropdown)
 
-    nationalLeagueDropdown.addEventListener('change', function handleChange(event){
-        if (event.target.value === "arizona-diamondbacks"){
-         console.log("Chase Field is the spot")
-         } else {
-         console.log("hmmm")
-         }
+    // nationalLeagueDropdown.addEventListener('change', function handleChange(event){
+    //     if (event.target.value === "arizona-diamondbacks"){
+    //      console.log("Chase Field is the spot")
+    //      } else {
+    //      console.log("hmmm")
+    //      }
 
-     })
+    //  })
 }
 
 const getPark = (event) => {
-    console.log(event.target.value)
-    axios.get("http://localhost:4500/api/park/")
+    // console.log(event.target.value)
+    const team = event.target.value
+    axios.get(`http://localhost:4500/api/park/${team}`)
         .then(res => {
             const data = res.data;
-            // createParkCard(data)
+            createParkCard(data)
             console.log(data)
     })
 };
