@@ -5,9 +5,9 @@ module.exports = {
     getPark: (req, res) => {
 
         
-        let park = parks.id
+        // let park = parks.id
         //get specific park by id//not sure if syntax is correct on this
-        res.status(200).send(park);
+        res.status(200).send("2");
     }
 
 }

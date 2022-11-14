@@ -7,5 +7,115 @@
       "opened": "April 6, 1992",
       "capacity": "45,971",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/d/d8/Camden_Yards.jpg"
+    },
+
+    {
+      "id": 2,
+      "title": "Fenway Park",
+      "team": "Boston Red Sox",
+      "city": "Boston, Massachusetts",
+      "opened": "April 20, 1912",
+      "capacity": "37,731",
+      "imageURL" : "https://www.ballparksofbaseball.com/wp-content/uploads/2016/03/fenway13952-1.jpg"
+    },
+
+    {
+      "id": 3,
+      "title": "Guaranteed Rate Field",
+      "team": "Chicago White Sox",
+      "city": "Chicago, Illinois",
+      "opened": "April 18, 1991",
+      "capacity": "40,615",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/U.S._Cellular_Field_%2830972191694%29.jpg/1280px-U.S._Cellular_Field_%2830972191694%29.jpg"
+    },
+
+    {
+      "id": 4,
+      "title": "Progressive Field",
+      "team": "Cleveland Guardians",
+      "city": "Cleveland, Ohio",
+      "opened": "April 2, 1994",
+      "capacity": "35,041",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Progressive_Field%2C_June_2019_%285%29.jpg/1280px-Progressive_Field%2C_June_2019_%285%29.jpg"
+    },
+
+    {
+      "id": 5,
+      "title": "Comerica Park",
+      "team": "Detroit Tigers",
+      "city": "Detroit, Michigan",
+      "opened": "April 11, 2000",
+      "capacity": "41,083",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tigers_opening_day2_2007.jpg"
+    },
+
+    {
+      "id": 6,
+      "title": "Minute Maid Park",
+      "team": "Houston Astros",
+      "city": "Houston, Texas",
+      "opened": "March 30, 2000",
+      "capacity": "41,168",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Minute_Maid_Park_2016-04-23.jpg/1920px-Minute_Maid_Park_2016-04-23.jpg"
+    },
+
+    {
+      "id": 7,
+      "title": "Kauffman Stadium",
+      "team": "Kansas City Royals",
+      "city": "Kansas City, Missouri",
+      "opened": "April 10, 1973",
+      "capacity": "37,309",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/3/35/Kauffman2017.jpg"
+    },
+
+    {
+      "id": 8,
+      "title": "Angel Stadium of Anaheim",
+      "team": "Los Angeles Angels",
+      "city": "Anaheim, California",
+      "opened": "April 19, 1966",
+      "capacity": "43,250",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Angelstadiummarch2019.jpg/1280px-Angelstadiummarch2019.jpg"
+    },
+
+    {
+      "id": 9,
+      "title": "Target Field",
+      "team": "Minnesota Twins",
+      "city": "Minneapolis, Minnesota",
+      "opened": "April 12, 2010",
+      "capacity": "38,544",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Target_Field_Aerial.jpg/1920px-Target_Field_Aerial.jpg"
+    },
+
+    {
+      "id": 10,
+      "title": "Yankee Stadium",
+      "team": "New York Yankees",
+      "city": "New York City, New York",
+      "opened": "April 2, 2009",
+      "capacity": "46,537",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Yankee_Stadium_upper_deck_2010.jpg/1280px-Yankee_Stadium_upper_deck_2010.jpg"
+    },
+
+    {
+      "id": 13,
+      "title": "Oakland Coliseum",
+      "team": "Oakland Athletics",
+      "city": "Oakland, California",
+      "opened": "September 18, 1966",
+      "capacity": "56,782",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/McAfee_Coliseum_%2815993646150%29.jpg/1280px-McAfee_Coliseum_%2815993646150%29.jpg"
+    },
+
+    {
+      "id": 14,
+      "title": "Oakland Coliseum",
+      "team": "Oakland Athletics",
+      "city": "Oakland, California",
+      "opened": "September 18, 1966",
+      "capacity": "56,782",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/McAfee_Coliseum_%2815993646150%29.jpg/1280px-McAfee_Coliseum_%2815993646150%29.jpg"
     }
   ]

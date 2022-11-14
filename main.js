@@ -115,11 +115,11 @@ addSingleADropdown = (element) => {
 /////////////////////////////////////////////////////
 
 addAmericanLeagueDropdown = (element) => {
-    const americanLeagueDropdown = document.createElement('select')
+    const americanLeagueDropdown = document.createElement('div')
     americanLeagueDropdown.classList.add('american-league-dropdown') //change class list to id and assign dropdown class
 
-    americanLeagueDropdown.innerHTML = `<select name="americanLeagueDropdown" id="americanLeagueDropdown" onchange="getPark()">
-    <option class="button" id="select-team" value="select-team">Select Team</option>
+    americanLeagueDropdown.innerHTML = `<select value="test" name="americanLeagueDropdown" id="americanLeagueDropdown" onchange="getPark(event)">
+    <option class="button" id="select-team">Select Team</option>
     <option class="button" id="baltimore-orioles" value="baltimore-orioles" onclick="getPark()">Baltimore Orioles</option>
     <option class="button" id="boston-red-sox" value="boston-red-sox">Boston Red Sox</option>
     <option class="button" id="chicago-white-sox" value="chicago-white-sox">Chicago White Sox</option>
@@ -190,11 +190,12 @@ addNationalLeagueDropdown = (element) => {
 
 const getPark = (event) => {
     console.log(event.target.value)
-    // axios.get("http://localhost:4500/api/park/")
-    //     .then(res => {
-    //         const data = res.data;
-    //         createParkCard(data)
-    // })
+    axios.get("http://localhost:4500/api/park/")
+        .then(res => {
+            const data = res.data;
+            // createParkCard(data)
+            console.log(data)
+    })
 };
 
 createParkCard = park => {
