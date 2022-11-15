@@ -159,6 +159,28 @@ header {
 
 }
 
+.international-league-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
+
+.pacific-coast-league-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
+
 .national-league-dropdown {
     position: absolute;
     top: 120px;
