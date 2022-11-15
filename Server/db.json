@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
+      "title": "Camden Yards",
       "teamId": "baltimore-orioles",
-      "title": "The Oriole Park at Camden Yards",
       "team": "Baltimore Orioles",
       "city": "Baltimore, Maryland",
       "opened": "Opened: April 6, 1992",
@@ -12,8 +12,8 @@
 
     {
       "id": 2,
-      "teamId": "boston-red-sox",
       "title": "Fenway Park",
+      "teamId": "boston-red-sox",
       "team": "Boston Red Sox",
       "city": "Boston, Massachusetts",
       "opened": "Opened: April 20, 1912",
@@ -220,7 +220,7 @@
     },
 
     {
-      "id": 20,
+      "id": 21,
       "title": "Dodger Stadium",
       "teamId": "los-angeles-dodgers",
       "team": "Los Angeles Dodgers",
@@ -228,5 +228,120 @@
       "opened": "Opened: April 10, 1962",
       "capacity": "Capacity: 56,000",
       "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/d/d2/Dodger_Stadium_field_from_upper_deck_2015-10-04.jpg"
-    }
+    },
+
+    {
+      "id": 22,
+      "title": "LoanDepot Park",
+      "teamId": "miami-marlins",
+      "team": "Miami Marlins",
+      "city": "Miami, Florida",
+      "opened": "Opened: March 5, 2012",
+      "capacity": "Capacity: 37,742",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/f/fa/Marlins_First_Pitch_at_Marlins_Park%2C_April_4%2C_2012_%28cropped%29.jpg"
+    },
+
+    {
+    "id": 22,
+      "title": "LoanDepot Park",
+      "teamId": "miami-marlins",
+      "team": "Miami Marlins",
+      "city": "Miami, Florida",
+      "opened": "Opened: March 5, 2012",
+      "capacity": "Capacity: 37,742",
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/f/fa/Marlins_First_Pitch_at_Marlins_Park%2C_April_4%2C_2012_%28cropped%29.jpg"
+    },
+
+    {
+      "id": 23,
+        "title": "American Family Field",
+        "teamId": "milwaukee-brewers",
+        "team": "Milwaukee Brewers",
+        "city": "Milwaukee, Wisconsin",
+        "opened": "Opened: April 6, 2001",
+        "capacity": "Capacity: 41,900",
+        "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/MillerParkJuly2018.jpg/2560px-MillerParkJuly2018.jpg"
+    },
+
+    {
+        "id": 24,
+          "title": "Citi Field",
+          "teamId": "new-york-mets",
+          "team": "New York Mets",
+          "city": "New York City, New York",
+          "opened": "Opened: March 29, 2009",
+          "capacity": "Capacity: 41,922",
+          "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Citi_Field_Night_Game.jpg/2560px-Citi_Field_Night_Game.jpg"
+        },
+
+        {
+          "id": 25,
+            "title": "Citizens Bank Park",
+            "teamId": "philadelphia-phillies",
+            "team": "Philadelphia Phillies",
+            "city": "Philadelphia, Pennsylvania",
+            "opened": "Opened: April 3, 2004",
+            "capacity": "Capacity: 42,792",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Citizens_Bank_Park_2021.jpg/2560px-Citizens_Bank_Park_2021.jpg"
+        },
+
+        {
+          "id": 26,
+            "title": "PNC Park",
+            "teamId": "pittsburgh-pirates",
+            "team": "Pittsburgh Pirates",
+            "city": "Pittsburgh, Pennsylvania",
+            "opened": "Opened: March 31, 2001",
+            "capacity": "Capacity: 38,747",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Pittsburgh_Pirates_park_%28Unsplash%29.jpg/2560px-Pittsburgh_Pirates_park_%28Unsplash%29.jpg"
+        },
+
+        {
+          "id": 27,
+            "title": "Petco Park",
+            "teamId": "san-diego-padres",
+            "team": "San Diego Padres",
+            "city": "San Diego, California",
+            "opened": "Opened: April 8, 2004",
+            "capacity": "Capacity: 42,445",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Petco_Park_Padres_Game.jpg/2560px-Petco_Park_Padres_Game.jpg"
+        },
+
+        {
+          "id": 28,
+            "title": "Oracle Park",
+            "teamId": "san-francisco-giants",
+            "team": "San Francisco Giants",
+            "city": "San Francisco, California",
+            "opened": "Opened: April 11, 2000",
+            "capacity": "Capacity: 41,915",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/SF_Giants_Night_Game.jpg/2560px-SF_Giants_Night_Game.jpg"
+        },
+
+        {
+          "id": 29,
+            "title": "Busch Stadium",
+            "teamId": "st-louis-cardinals",
+            "team": "St. Louis Cardinals",
+            "city": "St. Louis, Missouri",
+            "opened": "Opened: April 14, 2006",
+            "capacity": "Capacity: 45,494",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Busch_Stadium_2022.jpg/2560px-Busch_Stadium_2022.jpg"
+        },
+
+        {
+          "id": 30,
+            "title": "Nationals Park",
+            "teamId": "washington-nationals",
+            "team": "Washington Nationals",
+            "city": "Washington, D.C.",
+            "opened": "Opened: March 22, 2008",
+            "capacity": "Capacity: 41,339",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Nationals_Park_8.16.19_-_7.jpg/2560px-Nationals_Park_8.16.19_-_7.jpg"
+        }
+
+
+
+
+
   ]
