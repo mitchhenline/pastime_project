@@ -5,6 +5,7 @@ const highADropdown = document.getElementById("high-A-dropdown")
 const singleADropdown = document.getElementById("single-A-dropdown")
 const queryBox = document.getElementById("query-box")
 const parkInfoBox = document.getElementById("park-info-box")
+const randomButton = document.getElementById("random-button")
 
 
 const baseURL = `http://localhost:4500`
@@ -244,6 +245,8 @@ addPacificCoastLeagueDropdown = (element) => {
 
 const getPark = (event) => {
     const team = event.target.value
+
+
     axios.get(`http://localhost:4500/api/park/${team}`)
         .then(res => {
             const data = res.data;
@@ -252,7 +255,17 @@ const getPark = (event) => {
     })
 };
 
+// const randomPark = () => {
+//     axios.get("http://localhost:4000/api/random")
+//         .then(res => {
+//             const data = res.data;
+//             createParkCard(data)
+//     })
+// };
+
 createParkCard = park => {
+    clearPark()
+
     const parkCard = document.createElement('div')
     parkCard.classList.add('park-card')
 
@@ -267,3 +280,9 @@ createParkCard = park => {
     parkInfoBox.appendChild(parkCard)
 };
 
+
+clearPark = () => {
+    parkInfoBox.innerHTML = ``
+}
+
+// randomButton.addEventListener('click', randomPark)

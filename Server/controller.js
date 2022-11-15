@@ -10,5 +10,13 @@ module.exports = {
                return res.status(200).send(parks[i])
             }
         }
+    },
+
+    randomPark: (req, res) => {
+      
+        let randomIndex = Math.floor(Math.random() * parks.length);
+        let randomPark = parks[randomIndex];
+      
+        res.status(200).send(randomPark);
     }
 }

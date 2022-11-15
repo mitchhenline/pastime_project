@@ -6,8 +6,9 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-const {getPark} = require("./controller.js")
+const {getPark, randomPark} = require("./controller.js")
 app.get("/api/park/:team", getPark);
+app.get("/api/random", randomPark);
 
 
 
