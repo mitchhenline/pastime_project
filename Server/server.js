@@ -10,9 +10,19 @@ const {getPark, randomPark, addListItem, deleteListItem} = require("./controller
 app.get("/api/park/:team", getPark);
 // app.get("/api/random", randomPark);
 app.post('/api/listItems', addListItem);
-app.delete('http://localhost:4500/api/listItems:id', deleteListItem);
+//app.delete('http://localhost:4500/api/listItems:id', deleteListItem);
 
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "/index.html"))
+})
 
+app.get("/styles", (req, res) => {
+    res.sendFile(path.join(__dirname, "/index.css"))
+})
+
+app.get("/js", (req, res) => {
+    res.sendFile(path.join(__dirname, "main.js"))
+})
 
 const PORT = 4500
 app.listen(PORT, () => console.log(`Server running on ${PORT}`))
