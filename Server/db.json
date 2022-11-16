@@ -448,6 +448,226 @@
             "opened": "Opened: April 12, 2000",
             "capacity": "Capacity: 10,178",
             "imageURL" : "https://www.gannett-cdn.com/presto/2019/04/11/PLOU/b058bc3e-5e94-4dfc-bc38-6f730260f9f5-Stadium1.jpg"
+        },
+
+        {
+          "id": 41,
+            "title": "AutoZone Park",
+            "teamId": "memphis-redbirds",
+            "team": "Memphis Redbirds",
+            "city": "Memphis, Tennessee",
+            "opened": "Opened: April 1, 2000",
+            "capacity": "Capacity: 10,000",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/AutoZone_Park%2C_Memphis.jpg/1920px-AutoZone_Park%2C_Memphis.jpg"
+        },
+
+        {
+          "id": 42,
+            "title": "First Horizon Park",
+            "teamId": "nashville-sounds",
+            "team": "Nashville Sounds",
+            "city": "Nashville, Tennessee",
+            "opened": "Opened: April 17, 2015",
+            "capacity": "Capacity: 10,000",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/First_Tennessee_Park%2C_April_20%2C_2015_-_2.jpg/620px-First_Tennessee_Park%2C_April_20%2C_2015_-_2.jpg"
+        },
+
+        {
+          "id": 43,
+            "title": "Harbor Park",
+            "teamId": "norfolk-tides",
+            "team": "Norfolk Tides",
+            "city": "Norfolk, Viginia",
+            "opened": "Opened: April 14, 1993",
+            "capacity": "Capacity: 11,865",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/3/36/Harbor_park.jpg"
+        },
+
+        {
+          "id": 44,
+            "title": "Werner Park",
+            "teamId": "omaha-storm-chasers",
+            "team": "Omaha Storm Chasers",
+            "city": "Omaha, Nebraska",
+            "opened": "Opened: April 11, 2011",
+            "capacity": "Capacity: 9,023",
+            "imageURL" : "https://img.mlbstatic.com/mlb-images/image/private/t_16x9/t_w2208/mlb/h5frfdrjftqmermwb3lu"
+        },
+
+        {
+          "id": 45,
+            "title": "Innovative Field",
+            "teamId": "rochester-red-wings",
+            "team": "Rochester Red Wings",
+            "city": "Rochester, New York",
+            "opened": "Opened: July 11, 1996",
+            "capacity": "Capacity: 13,500",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Frontier_Field_2.jpg/1920px-Frontier_Field_2.jpg"
+        },
+
+        {
+          "id": 46,
+            "title": "PNC Field",
+            "teamId": "scranton-wilkes-barre-railriders",
+            "team": "Scranton/Wilkes-Barre RailRiders",
+            "city": "Moosic, Pennsylvania",
+            "opened": "Opened: April 26, 1989",
+            "capacity": "Capacity: 10,000",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Frontier_Field_2.jpg/1920px-Frontier_Field_2.jpg"
+        },
+
+        {
+          "id": 47,
+            "title": "PNC Field",
+            "teamId": "st-paul-saints",
+            "team": "St. Paul Saints",
+            "city": "Saint Paul, Minnesota",
+            "opened": "Opened: May 21, 2015",
+            "capacity": "Capacity: 7,210",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/CHS_Field_Opening_Day.jpg/2880px-CHS_Field_Opening_Day.jpg"
+        },
+
+        {
+          "id": 48,
+            "title": "NBT Bank Stadium",
+            "teamId": "syracuse-mets",
+            "team": "Syracuse Mets",
+            "city": "Syracuse, New York",
+            "opened": "Opened: April 3, 1997",
+            "capacity": "Capacity: 10,815",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/NBTBankStadium1021.jpg/2560px-NBTBankStadium1021.jpg"
+        },
+
+        {
+          "id": 49,
+            "title": "Fifth Third Field",
+            "teamId": "toledo-mud-hens",
+            "team": "Toledo Mud Hens",
+            "city": "Toledo, Ohio",
+            "opened": "Opened: April 9, 2002",
+            "capacity": "Capacity: 10,300",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/4/43/FifthThirdField.jpg"
+        },
+
+        {
+          "id": 50,
+            "title": "Polar Park",
+            "teamId": "worcester-red-sox",
+            "team": "Worcester Red Sox",
+            "city": "Worcester, Massachusetts",
+            "opened": "Opened: May 11, 2021",
+            "capacity": "Capacity: 9,508",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Polar_Park_3.jpg/2560px-Polar_Park_3.jpg"
+        },
+
+        {
+          "id": 51,
+            "title": "Isotopes Park",
+            "teamId": "albuquerque-isotopes",
+            "team": "Albuquerque Isotopes",
+            "city": "Albuquerque, New Mexico",
+            "opened": "Opened: April 11, 2003",
+            "capacity": "Capacity: 13,500",
+            "imageURL" : "https://lh3.googleusercontent.com/p/AF1QipMGQNGQOI-Yn29wsWn7tVd2-FjE7sOTXBBSwZPl=s1360-w1360-h1020"
+        },
+
+        {
+          "id": 52,
+            "title": "Southwest University Park",
+            "teamId": "el-paso-chihuahuas",
+            "team": "El Paso Chihuahuas",
+            "city": "El Paso, Texas",
+            "opened": "Opened: April 28, 2014",
+            "capacity": "Capacity: 10,000",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/8/84/Southwest_University_Park_2021.jpg"
+        },
+
+        {
+          "id": 53,
+            "title": "Las Vegas Ballpark",
+            "teamId": "las-vegas-aviators",
+            "team": "Las Vegas Aviators",
+            "city": "Summerlin, Nevada",
+            "opened": "Opened: April 6, 2019",
+            "capacity": "Capacity: 10,000",
+            "imageURL" : "https://ballparkdigest.com/wp-content/uploads/2022/07/Las-Vegas-Ballpark-29-1.jpg"
+        },
+
+        {
+          "id": 54,
+            "title": "Chickasaw Bricktown",
+            "teamId": "oklahoma-city-dodgers",
+            "team": "Oklahoma City Dodgers",
+            "city": "Oklahoma City, Oklahoma",
+            "opened": "Opened: October 10, 1995",
+            "capacity": "Capacity: 9,000",
+            "imageURL" : "https://www.gannett-cdn.com/authoring/2020/05/15/NOKL/ghnewsok-OK-5666685-30885d3a.jpeg"
+        },
+
+        {
+          "id": 55,
+            "title": "Greater Nevada Ballpark",
+            "teamId": "reno-aces",
+            "team": "Reno Aces",
+            "city": "Reno, Nevada",
+            "opened": "Opened: April 17, 2009",
+            "capacity": "Capacity: 9,013",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Aces_Ballpark_from_garage.jpg/2560px-Aces_Ballpark_from_garage.jpg"
+        },
+
+        {
+          "id": 56,
+            "title": "Dell Diamond",
+            "teamId": "round-rock-express",
+            "team": "Round Rock Express",
+            "city": "Round Rock, Texas",
+            "opened": "Opened: April 16, 2000",
+            "capacity": "Capacity: 11,631",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/b/b6/Dell_diamond_4DM.jpg"
+        },
+
+        {
+          "id": 57,
+            "title": "Sutter Health Park",
+            "teamId": "sacramento-river-cats",
+            "team": "Sacramento River Cats",
+            "city": "Sacramento, California",
+            "opened": "Opened: May 15, 2000",
+            "capacity": "Capacity: 14,014",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/5/5c/Rivercats_at_Raley_Field2.JPG"
+        },
+
+        {
+          "id": 58,
+            "title": "Smith's Ballpark",
+            "teamId": "salt-lake-bees",
+            "team": "Salt Lake Bees",
+            "city": "Salt Lake City, Utah",
+            "opened": "Opened: April 11, 1994",
+            "capacity": "Capacity: 14,511",
+            "imageURL" : "https://img.mlbstatic.com/mlb-images/image/private/t_16x9/t_w2208/mlb/tz3nurd4ynxxhjlrxacz"
+        },
+
+        {
+          "id": 59,
+            "title": "Constellation Field",
+            "teamId": "sugar-land-space-cowboys",
+            "team": "Sugar Land Space Cowboys",
+            "city": "Sugar Land, Texas",
+            "opened": "Opened: April 26, 2012",
+            "capacity": "Capacity: 7,500",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/b/b9/Constellation_Field.jpg"
+        },
+
+        {
+          "id": 60,
+            "title": "Cheney Stadium",
+            "teamId": "tacoma-rainiers",
+            "team": "Tacoma Rainiers",
+            "city": "Tacoma, Washington",
+            "opened": "Opened: April 16, 1960",
+            "capacity": "Capacity: 6,500",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/A_Packed_Cheney_Stadium.jpg/2560px-A_Packed_Cheney_Stadium.jpg"
         }
 
 

@@ -29,7 +29,7 @@ const addListItem = body => axios.post('http://localhost:4500/api/listItems', bo
     console.log(res.data)
     clearList()
     for (let i = 0; i < res.data.length; i++){
-        const list = document.createElement('h1')
+        const list = document.createElement('h3')
         list.textContent = res.data[i].myPark
         listItemsContainer.appendChild(list)
 

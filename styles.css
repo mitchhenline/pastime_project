@@ -280,3 +280,12 @@ header {
 #my-park {
     background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
 }
+
+#list-items-container {
+    position: relative;
+    left: -600px;
+    margin: 5px;
+    padding: 5px;
+    top: 10px;
+    text-size-adjust: 25%;
+}
