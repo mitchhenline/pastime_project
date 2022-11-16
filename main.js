@@ -6,9 +6,73 @@ const singleADropdown = document.getElementById("single-A-dropdown")
 const queryBox = document.getElementById("query-box")
 const parkInfoBox = document.getElementById("park-info-box")
 const randomButton = document.getElementById("random-button")
+const listItemsContainer = document.querySelector('#list-items-container')
+const form = document.querySelector('#bucketlist-form')
 
 
-const baseURL = `http://localhost:4500`
+const baseURL = 'http://localhost:4500'
+
+
+////////////////////////////////////////////////////////////////////////
+//------------------------BUCKET LIST---------------------------------//
+///////////////////////////////////////////////////////////////////////
+
+
+const errCallback = err => console.log(err.response.data)
+
+clearList = () => {
+    listItemsContainer.innerHTML = ``
+}
+
+const addListItem = body => axios.post('http://localhost:4500/api/listItems', body)
+.then((res) => {
+    console.log(res.data)
+    clearList()
+    for (let i = 0; i < res.data.length; i++){
+        const list = document.createElement('h1')
+        list.textContent = res.data[i].myPark
+        listItemsContainer.appendChild(list)
+
+    }
+})
+.catch(errCallback)
+
+function submitHandler(e) {
+    e.preventDefault()
+
+    let myPark = document.querySelector('#my-park')
+    // let myRating = document.querySelector('input[name="ratings"]:checked')
+
+    let bodyObj = {
+        myPark: myPark.value,
+        // myRating: myRating.value, 
+    }
+    addListItem(bodyObj)
+
+    myPark.value = ''
+    // myRating.checked = false
+}
+
+function createListCard(listItem) {
+    const listCard = document.createElement('div')
+    listCard.classList.add('list-card')
+
+    listCard.innerHTML = `
+    <p class="myPark">${listItem.myPark}</p>
+    <p class="myRating">${listItem.myRating}</P>`
+
+
+    listItemsContainer.appendChild(listCard)
+}
+
+form.addEventListener('submit', submitHandler)
+
+
+
+
+
+
+
 
 //------------------------DROPDOWN MENU-------------------------------//
 
@@ -275,8 +339,7 @@ createParkCard = park => {
     <p class ="park-city">${park.city}</p>
     <p class ="park-opened">${park.opened}</p>
     <p class ="park-capacity">${park.capacity}</p>
-    </div>`
-
+    </div> `
     parkInfoBox.appendChild(parkCard)
 };
 
