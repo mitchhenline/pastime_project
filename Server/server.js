@@ -13,16 +13,16 @@ app.post('/api/listItems', addListItem);
 //app.delete('http://localhost:4500/api/listItems:id', deleteListItem);
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "/index.html"))
+    res.sendFile(path.join(__dirname, "../index.html"))
 })
 
 app.get("/styles", (req, res) => {
-    res.sendFile(path.join(__dirname, "/index.css"))
+    res.sendFile(path.join(__dirname, "../styles.css"))
 })
 
 app.get("/js", (req, res) => {
-    res.sendFile(path.join(__dirname, "main.js"))
+    res.sendFile(path.join(__dirname, "../main.js"))
 })
 
-const PORT = 4500
-app.listen(PORT, () => console.log(`Server running on ${PORT}`))
+const port = process.env.PORT||4500
+app.listen(port, () => console.log(`Server running on ${port}`))
