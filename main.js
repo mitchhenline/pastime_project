@@ -10,6 +10,7 @@ const listItemsContainer = document.querySelector('#list-items-container')
 const form = document.querySelector('#bucketlist-form')
 
 
+
 const baseURL = 'http://localhost:4500'
 
 
@@ -24,14 +25,25 @@ clearList = () => {
     listItemsContainer.innerHTML = ``
 }
 
+// const deleteListItem = id => axios.delete('http://localhost:4500/api/listItems:id', id)
+// .then((res) => {
+// console.log('working')
+// })
+
 const addListItem = body => axios.post('http://localhost:4500/api/listItems', body)
 .then((res) => {
     console.log(res.data)
     clearList()
     for (let i = 0; i < res.data.length; i++){
         const list = document.createElement('h3')
+        list.setAttribute("id", "list-item-text")
         list.textContent = res.data[i].myPark
         listItemsContainer.appendChild(list)
+        // const deleteButton = document.createElement('button')
+        // deleteButton.setAttribute = ("id", "delete-button")
+        // deleteButton.setAttribute = ("onclick", "deleteListItem(event)")
+        // deleteButton.textContent = "X"
+        // listItemsContainer.appendChild(deleteButton)
 
     }
 })
@@ -52,6 +64,7 @@ function submitHandler(e) {
 
 
 form.addEventListener('submit', submitHandler)
+// listItem.addEventListener('click', deleteListItem)
 
 
 ////////////////////////////////////////////////////////////////////////

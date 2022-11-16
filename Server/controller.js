@@ -40,5 +40,16 @@ module.exports = {
 
         listItems.push(newListItem)
         res.status(200).send(listItems)
+    },
+
+    deleteListItem: (req, res) => {
+        const {id} = req.body
+        for (let i = 0; i < listItems.length; i++) {
+            if (listItems[i] === id) {
+                listItems.splice(i, 1)
+                res.status(200).send('list item deleted')
+            }
+        }
+        res.status(400).send('list item not found')
     }
 }

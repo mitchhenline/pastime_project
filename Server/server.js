@@ -6,10 +6,11 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-const {getPark, randomPark, addListItem} = require("./controller.js")
+const {getPark, randomPark, addListItem, deleteListItem} = require("./controller.js")
 app.get("/api/park/:team", getPark);
 // app.get("/api/random", randomPark);
 app.post('/api/listItems', addListItem);
+app.delete('http://localhost:4500/api/listItems:id', deleteListItem);
 
 
 
