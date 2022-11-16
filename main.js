@@ -41,40 +41,23 @@ function submitHandler(e) {
     e.preventDefault()
 
     let myPark = document.querySelector('#my-park')
-    // let myRating = document.querySelector('input[name="ratings"]:checked')
 
     let bodyObj = {
-        myPark: myPark.value,
-        // myRating: myRating.value, 
+        myPark: myPark.value, 
     }
     addListItem(bodyObj)
 
     myPark.value = ''
-    // myRating.checked = false
 }
 
-function createListCard(listItem) {
-    const listCard = document.createElement('div')
-    listCard.classList.add('list-card')
-
-    listCard.innerHTML = `
-    <p class="myPark">${listItem.myPark}</p>
-    <p class="myRating">${listItem.myRating}</P>`
-
-
-    listItemsContainer.appendChild(listCard)
-}
 
 form.addEventListener('submit', submitHandler)
 
 
-
-
-
-
-
-
+////////////////////////////////////////////////////////////////////////
 //------------------------DROPDOWN MENU-------------------------------//
+////////////////////////////////////////////////////////////////////////
+
 
 levelDropdown.addEventListener('change', function handleChange(event){
    if (event.target.value === "major-league"){
@@ -300,11 +283,8 @@ addPacificCoastLeagueDropdown = (element) => {
     queryBox.appendChild(pacificCoastLeagueDropdown)
 }
 
-
-
-
 ////////////////////////////
-//////OTHER FUNCTIONS///////
+/////GRAB PARK FUNCTIONS////
 ////////////////////////////
 
 const getPark = (event) => {
@@ -319,13 +299,7 @@ const getPark = (event) => {
     })
 };
 
-// const randomPark = () => {
-//     axios.get("http://localhost:4000/api/random")
-//         .then(res => {
-//             const data = res.data;
-//             createParkCard(data)
-//     })
-// };
+
 
 createParkCard = park => {
     clearPark()
@@ -347,5 +321,17 @@ createParkCard = park => {
 clearPark = () => {
     parkInfoBox.innerHTML = ``
 }
+
+////////////////////////////
+//////RANDOM PARK///////////
+////////////////////////////
+
+// const randomPark = () => {
+//     axios.get("http://localhost:4000/api/random")
+//         .then(res => {
+//             const data = res.data;
+//             createParkCard(data)
+//     })
+// };
 
 // randomButton.addEventListener('click', randomPark)

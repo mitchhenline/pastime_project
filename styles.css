@@ -13,6 +13,7 @@ header {
     top: 10px;
     display: flex;
     justify-content: space-around;
+    z-index: 50;
 }
 
 #stadium-photo {
@@ -274,4 +275,8 @@ header {
     top: 125px;
     left: -700px;
 
+}
+
+#my-park {
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
 }
