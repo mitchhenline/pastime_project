@@ -13,13 +13,12 @@ module.exports = {
         }
     },
 
-    // randomPark: (req, res) => {
+    randomPark: (req, res) => {
+        let randomIndex = Math.floor(Math.random() * parks.length);
+        let randomPark = parks[randomIndex];
       
-    //     let randomIndex = Math.floor(Math.random() * parks.length);
-    //     let randomPark = parks[randomIndex];
-      
-    //     res.status(200).send(randomPark);
-    // },
+        res.status(200).send(randomPark);
+    },
 
     addListItem: (req, res) => {
         const {myPark} = req.body

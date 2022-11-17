@@ -418,12 +418,14 @@ clearPark = () => {
 //////RANDOM PARK///////////
 ////////////////////////////
 
-// const randomPark = () => {
-//     axios.get("http://localhost:4000/api/random")
-//         .then(res => {
-//             const data = res.data;
-//             createParkCard(data)
-//     })
-// };
+const randomPark = () => {
+    console.log('click works')
+    axios.get("http://localhost:4500/api/random")
+        .then(res => {
+            const data = res.data;
+            console.log(data)
+            createParkCard(data)
+    })
+};
 
-// randomButton.addEventListener('click', randomPark)
+randomButton.addEventListener('click', randomPark)
