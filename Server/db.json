@@ -668,7 +668,341 @@
             "opened": "Opened: April 16, 1960",
             "capacity": "Capacity: 6,500",
             "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/A_Packed_Cheney_Stadium.jpg/2560px-A_Packed_Cheney_Stadium.jpg"
+        },
+
+        {
+          "id": 61,
+            "title": "Canal Park",
+            "teamId": "akron-rubber-ducks",
+            "team": "Akron Rubber Ducks",
+            "city": "Akron, Ohio",
+            "opened": "Opened: 1997",
+            "capacity": "Capacity: 7,630",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Canal_park_evening_akron_ohio_2005.jpg/1920px-Canal_park_evening_akron_ohio_2005.jpg"
+        },
+
+        {
+          "id": 62,
+            "title": "Peoples Natural Gas Field",
+            "teamId": "altoona-curve",
+            "team": "Altoona Curve",
+            "city": "Altoona, Pennsylvania",
+            "opened": "Opened: April 15, 1999",
+            "capacity": "Capacity: 7,210",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Field_at_BCB.JPG/1280px-Field_at_BCB.JPG"
+        },
+
+        {
+          "id": 63,
+            "title": "Mirabito Stadium",
+            "teamId": "binghamton-rumble-ponies",
+            "team": "Binghamton Rumble Ponies",
+            "city": "Binghamton, New York",
+            "opened": "Opened: April 14, 1991",
+            "capacity": "Capacity: 6,012",
+            "imageURL" : "https://static.wixstatic.com/media/2e2e5a_8c41d1c2f08f4fca9a7bc3106c605583~mv2.jpg/v1/fill/w_544,h_300,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Binghamton%2021.jpg"
+        },
+
+        {
+          "id": 64,
+            "title": "Prince George's Stadium",
+            "teamId": "bowie-baysox",
+            "team": "Bowie Baysox",
+            "city": "Bowie, Maryland",
+            "opened": "Opened: June 16, 1994",
+            "capacity": "Capacity: 10,000",
+            "imageURL" : "https://img.mlbstatic.com/mlb-images/image/private/t_16x9/t_w2208/mlb/qkmtsr2j1kqnk5khq78q"
+        },
+
+        {
+          "id": 65,
+            "title": "UPMC Park",
+            "teamId": "erie-seawolves",
+            "team": "Erie SeaWolves",
+            "city": "Erie, Pennsylvania",
+            "opened": "Opened: June 20, 1995",
+            "capacity": "Capacity: 6,000",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/UPMCParkUpperLevel.jpg/1920px-UPMCParkUpperLevel.jpg"
+        },
+
+        {
+          "id": 66,
+            "title": "FNB Field",
+            "teamId": "harrisburg-senators",
+            "team": "Harrisburg Senators",
+            "city": "Harrisburg, Pennsylvania",
+            "opened": "Opened: April 11, 1987",
+            "capacity": "Capacity: 6,187",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/d/d2/FNB_Field_4.jpg"
+        },
+
+        {
+          "id": 67,
+            "title": "Dunkin Donuts Park",
+            "teamId": "hartford-yard-goats",
+            "team": "Hartford Yard Goats",
+            "city": "Hartford, Connecticut",
+            "opened": "Opened: April 11, 2017",
+            "capacity": "Capacity: 6,121",
+            "imageURL" : "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_06/2745351/190207-hartford-yard-goats-cs-1112a.jpg"
+        },
+
+        {
+          "id": 68,
+            "title": "Delta Dental Stadium",
+            "teamId": "new-hampshire-fisher-cats",
+            "team": "New Hampshire Fisher Cats",
+            "city": "Machester, New Hampshire",
+            "opened": "Opened: April 6, 2005",
+            "capacity": "Capacity: 6,500",
+            "imageURL" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/da/6e/5f/northeast-delta-dental.jpg?w=1200&h=-1&s=1"
+        },
+
+        {
+          "id": 69,
+            "title": "Hadlock Field",
+            "teamId": "portland-sea-dogs",
+            "team": "Portland Sea Dogs",
+            "city": "Portland, Maine",
+            "opened": "Opened: April 18, 1994",
+            "capacity": "Capacity: 7,368",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Hadlock_Field_2022.jpg/1280px-Hadlock_Field_2022.jpg"
+        },
+
+        {
+          "id": 70,
+            "title": "FirstEnergy Stadium",
+            "teamId": "reading-fightin-phils",
+            "team": "Reading Fightin Phils",
+            "city": "Reading, Pennsylvania",
+            "opened": "Opened: April 15, 1951",
+            "capacity": "Capacity: 10,000",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/First_Energy_Stadium_in_2019.jpg/1280px-First_Energy_Stadium_in_2019.jpg"
+        },
+
+        {
+          "id": 71,
+            "title": "The Diamond",
+            "teamId": "richmond-flying-squirrels",
+            "team": "Richmond Flying Squirrels",
+            "city": "Richmond, Virginia",
+            "opened": "Opened: April 17, 1985",
+            "capacity": "Capacity: 9,560",
+            "imageURL" : "https://static.wixstatic.com/media/2e2e5a_e36552990c234cc585a9a8d1ccdeccd4~mv2.jpg/v1/fill/w_1600,h_1067,al_c/2e2e5a_e36552990c234cc585a9a8d1ccdeccd4~mv2.jpg"
+        },
+
+        {
+          "id": 72,
+            "title": "TD Bank Ballpark",
+            "teamId": "somerset-patriots",
+            "team": "Somerset Patriots",
+            "city": "Bridgewater, New Jersey",
+            "opened": "Opened: June 7, 1999",
+            "capacity": "Capacity: 6,100",
+            "imageURL" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/b3/c5/13/picture-perfect-night.jpg?w=1200&h=1200&s=1"
+        },
+
+        {
+          "id": 73,
+            "title": "MGM Park",
+            "teamId": "biloxi-shuckers",
+            "team": "Biloxi Shuckers",
+            "city": "Biloxi, Mississippi",
+            "opened": "Opened: June 6, 2015",
+            "capacity": "Capacity: 6,067",
+            "imageURL" : "https://stadiumjourney.com/wp-content/uploads/2018/08/MGM-Park-Aerial-view-of-a-Shuckers-Night-Game.png"
+        },
+
+        {
+          "id": 74,
+            "title": "Regions Field",
+            "teamId": "birmingham-barons",
+            "team": "Birmingham Barons",
+            "city": "Birmingham, Alabama",
+            "opened": "Opened: April 10, 2013",
+            "capacity": "Capacity: 8,500",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Regions_Field%2C_Birmingham_Alabama.jpeg/1280px-Regions_Field%2C_Birmingham_Alabama.jpeg"
+        },
+
+        {
+          "id": 75,
+            "title": "AT&T Field",
+            "teamId": "chattanooga-lookouts",
+            "team": "Chattanooga Lookouts",
+            "city": "Chattanooga, Tennessee",
+            "opened": "Opened: April 10, 2000",
+            "capacity": "Capacity: 6,382",
+            "imageURL" : "https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_400,q_80,w_400/v1/clients/chattanooga/Chatt_Lookouts_c2bfb1cb-3801-4e75-97a4-72bb77ed869b.jpg"
+        },
+
+        {
+          "id": 76,
+            "title": "Trustmark Park",
+            "teamId": "mississippi-braves",
+            "team": "Mississippi Braves",
+            "city": "Pearl, Mississippi",
+            "opened": "Opened: April 18, 2005",
+            "capacity": "Capacity: 8,480",
+            "imageURL" : "https://www.wjtv.com/wp-content/uploads/sites/72/2021/05/trustmark-park.jpg?strip=1&w=640"
+        },
+
+        {
+          "id": 77,
+            "title": "Montgomery Riverwalk Stadium",
+            "teamId": "montgomery-biscuits",
+            "team": "Montgomery Biscuits",
+            "city": "Montgomery, Alabama",
+            "opened": "Opened: April 16, 2004",
+            "capacity": "Capacity: 7,000",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Montgomery_Riverwalk_Stadium.jpg/1280px-Montgomery_Riverwalk_Stadium.jpg"
+        },
+
+        {
+          "id": 78,
+            "title": "Admiral Fetterman Field",
+            "teamId": "pensacola-blue-wahoos",
+            "team": "Pensacola Blue Wahoos",
+            "city": "Pensacola, Florida",
+            "opened": "Opened: April 5, 2012",
+            "capacity": "Capacity: 5,038",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MaritimeParkPNS.jpg/1280px-MaritimeParkPNS.jpg"
+        },
+
+        {
+          "id": 79,
+            "title": "Toyota Field",
+            "teamId": "rocket-city-trash-pandas",
+            "team": "Rocket City Trash Pandas",
+            "city": "Madison, Alabama",
+            "opened": "Opened: April 15, 2020",
+            "capacity": "Capacity: 7,000",
+            "imageURL" : "http://ballparkdigest.com/wp-content/uploads/2022/03/toyotafield2021-2.jpeg"
+        },
+
+        {
+          "id": 80,
+            "title": "Smokies Stadium",
+            "teamId": "tennessee-smokies",
+            "team": "Tennessee Smokies",
+            "city": "Kodak, Tennessee",
+            "opened": "Opened: April 20, 2000",
+            "capacity": "Capacity: 6,412",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/SmokiesPark.jpg/1280px-SmokiesPark.jpg"
+        },
+
+        {
+          "id": 81,
+            "title": "Hodgetown",
+            "teamId": "amarillo-sod-poodles",
+            "team": "Amarillo Sod Poodles",
+            "city": "Amarillo, Texas",
+            "opened": "Opened: April 8, 2019",
+            "capacity": "Capacity: 6,631",
+            "imageURL" : "https://image.pbs.org/video-assets/9HhsWQR-asset-mezzanine-16x9-sX05iKG.png"
+        },
+
+        {
+          "id": 82,
+            "title": "Dickey-Stevens Park",
+            "teamId": "arkansas-travelers",
+            "team": "Arkansas Travelers",
+            "city": "North Little Rock, Arkansas",
+            "opened": "Opened: April 12, 2007",
+            "capacity": "Capacity: 7,300",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Dickey_stephens_field_and_grandstand.JPG/1280px-Dickey_stephens_field_and_grandstand.JPG"
+        },
+
+        {
+          "id": 83,
+            "title": "Whataburger Field",
+            "teamId": "corpus-christi-hooks",
+            "team": "Corpus Christi Hooks",
+            "city": "Corpus Christi, Texas",
+            "opened": "Opened: April 17, 2005",
+            "capacity": "Capacity: 7,679",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/9/92/Whataburge0r_Field.jpg"
+        },
+
+        {
+          "id": 84,
+            "title": "Riders Field",
+            "teamId": "frisco-roughriders",
+            "team": "Frisco RoughRiders",
+            "city": "Frisco, Texas",
+            "opened": "Opened: April 3, 2003",
+            "capacity": "Capacity: 10,216",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Dr_pepper_ballpark_right_field_toward_home.jpg/1280px-Dr_pepper_ballpark_right_field_toward_home.jpg"
+        },
+
+        {
+          "id": 85,
+            "title": "Momentum Bank Ballpark",
+            "teamId": "midland-rockhounds",
+            "team": "Midland RockHounds",
+            "city": "Midland, Texas",
+            "opened": "Opened: March 23, 2002",
+            "capacity": "Capacity: 6,669",
+            "imageURL" : "https://img.mlbstatic.com/mlb-images/image/private/t_16x9/t_w2208/mlb/kyzwaggipivl1q1wlx66"
+        },
+
+        {
+          "id": 86,
+            "title": "Arvest Ballpark",
+            "teamId": "northwest-arkansas-naturals",
+            "team": "Northwest Arkansas Naturals",
+            "city": "Springdale, Arkansas",
+            "opened": "Opened: April 10, 2008",
+            "capacity": "Capacity: 7,305",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Arvest_Ballpark_center.jpg/1280px-Arvest_Ballpark_center.jpg"
+        },
+
+        {
+          "id": 87,
+            "title": "Wolff Stadium",
+            "teamId": "san-antonio-missions",
+            "team": "San Antonio Missions",
+            "city": "San Antonio, Texas",
+            "opened": "Opened: April 18, 1994",
+            "capacity": "Capacity: 9,200",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wolff_Stadium_2006.jpg/1280px-Wolff_Stadium_2006.jpg"
+        },
+
+        {
+          "id": 88,
+            "title": "Hammons Field",
+            "teamId": "springfield-cardinals",
+            "team": "Springfield Cardinals",
+            "city": "Springfield, Missouri",
+            "opened": "Opened: April 2, 2004",
+            "capacity": "Capacity: 10,486",
+            "imageURL" : "https://img.mlbstatic.com/milb-images/image/private/t_2x1/t_w1536/milb/sjoibsbhyuqgdbexbtql.jpg"
+        },
+
+        {
+          "id": 89,
+            "title": "Oneok Field",
+            "teamId": "tulsa-drillers",
+            "team": "Tulsa Drillers",
+            "city": "Tulsa, Oklahoma",
+            "opened": "Opened: April 8, 2010",
+            "capacity": "Capacity: 7,833",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/ONEOK_Field_from_centerfield.JPG/1280px-ONEOK_Field_from_centerfield.JPG"
+        },
+
+        {
+          "id": 90,
+            "title": "Riverfront Stadium",
+            "teamId": "wichita-wind-surge",
+            "team": "Wichita Wind Surge",
+            "city": "Wichita, Kansas",
+            "opened": "Opened: April 10, 2021",
+            "capacity": "Capacity: 12,000",
+            "imageURL" : "https://www.kansas.com/latest-news/8yk1f6/picture251342383/alternates/FREE_1140/051121surge_th2.jpg"
         }
+
+
+
+
 
 
 
