@@ -206,6 +206,39 @@ header {
     background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
 }
 
+.southern-league-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
+
+.eastern-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
+
+.texas-league-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
+
 #query-box {
     position: relative;
     height: 315px;
@@ -288,8 +321,4 @@ header {
     padding: 5px;
     top: 10px;
     text-size-adjust: 25%;
-}
-
-#delete-button {
-    
 }
