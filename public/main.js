@@ -177,6 +177,18 @@ addHighADropdown = (element) => {
     </select>`
 
     queryBox.appendChild(highADropdown)
+
+    highADropdown.addEventListener('change', function handleChange(event){
+        if (event.target.value === "midwest-league"){
+         addMidwestLeagueDropdown()
+        } else if (event.target.value === "northwest-league"){
+         addNorthwestLeagueDropdown()
+        } else if (event.target.value === "south-atlantic-league"){
+         addSouthAtlanticLeagueDropdown()
+         } else {
+         console.log("hmmm")
+         }
+     })
 }
 
 addSingleADropdown = (element) => {
@@ -187,10 +199,22 @@ addSingleADropdown = (element) => {
     <option class="button" id="select-league" value="select-league">Select League</option>
     <option class="button" id="california-league" value="california-league">California League</option>
     <option class="button" id="carolina-league" value="carolina-league">Carolina League</option>
-    <option class="button" id="florida-league" value="florida-league">Florida League</option>
+    <option class="button" id="florida-state-league" value="florida-state-league">Florida State League</option>
     </select>`
 
     queryBox.appendChild(singleADropdown)
+
+    singleADropdown.addEventListener('change', function handleChange(event){
+        if (event.target.value === "california-league"){
+         addCaliforniaLeagueDropdown()
+        } else if (event.target.value === "carolina-league"){
+         addCarolinaLeagueDropdown()
+        } else if (event.target.value === "florida-state-league"){
+         addFloridaStateLeagueDropdown()
+         } else {
+         console.log("hmmm")
+         }
+     })
 }
 
 
@@ -373,6 +397,140 @@ addTexasLeagueDropdown = (element) => {
     </select>`
 
     queryBox.appendChild(texasLeagueDropdown)
+}
+
+/////////////////////////////////////////////////////
+//-----------HIGH A DROPDOWN TEAM LISTS-----------//
+/////////////////////////////////////////////////////
+
+addMidwestLeagueDropdown = (element) => {
+    const midwestLeagueDropdown = document.createElement('div')
+    midwestLeagueDropdown.classList.add('midwest-league-dropdown') 
+
+   midwestLeagueDropdown.innerHTML = `<select name="midwestLeagueDropdown" id="midwestLeagueDropdown" onchange="getPark(event)">
+    <option class="button" id="select-team">Select Team</option>
+    <option class="button" id="beloit-sky-carp" value="beloit-sky-carp">Beloit Sky Carp</option>
+    <option class="button" id="cedar-rapids-kernals" value="cedar-rapids-kernals">Cedar Rapids Kernals</option>
+    <option class="button" id="dayton-dragons" value="dayton-dragons">Dayton Dragons</option>
+    <option class="button" id="fort-wayne-tincaps" value="fort-wayne-tincaps">Fort Wayne TinCaps</option>
+    <option class="button" id="great-lakes-loons" value="great-lakes-loons">Great Lakes Loons</option>
+    <option class="button" id="lake-county-captains" value="lake-county-captains">Lake County Captains</option>
+    <option class="button" id="lansing-lugnuts" value="lansing-lugnuts">Lansing Lugnuts</option>
+    <option class="button" id="peoria-chiefs" value="peoria-chiefs">Peoria Chiefs</option>
+    <option class="button" id="quad-cities-river-bandits" value="quad-cities-river-bandits">Quad Cities River Bandits</option>
+    <option class="button" id="south-bend-cubs" value="south-bend-cubs">South Bend Cubs</option>
+    <option class="button" id="west-michigan-whitecaps" value="west-michigan-whitecaps">West Michigan Whitecaps</option>
+    <option class="button" id="wisconsin-timber-rattlers" value="wisconsin-timber-rattlers">Wisconsin Timber Rattlers</option>
+    </select>`
+
+    queryBox.appendChild(midwestLeagueDropdown)
+}
+
+addNorthwestLeagueDropdown = (element) => {
+    const northwestLeagueDropdown = document.createElement('div')
+    northwestLeagueDropdown.classList.add('northwest-league-dropdown')
+
+    northwestLeagueDropdown.innerHTML = `<select name="northwestLeagueDropdown" id="northwestLeagueDropdown" onchange="getPark(event)">
+    <option class="button" id="select-team">Select Team</option>
+    <option class="button" id="eugene-emeralds" value="eugene-emeralds">Eugene Emeralds</option>
+    <option class="button" id="everett-aquasox" value="everett-aquasox">Everett AquaSox</option>
+    <option class="button" id="hillsboro-hops" value="hillsboro-hops">Hillsboro Hops</option>
+    <option class="button" id="spokane-indians" value="spokane-indians">Spokane Indians</option>
+    <option class="button" id="tri-city-dust-devils" value="tri-city-dust-devils">Tri-City Dust Devils</option>
+    <option class="button" id="vancouver-canadians" value="vancouver-canadians">Vancouver Canadians</option>
+    </select>`
+
+    queryBox.appendChild(northwestLeagueDropdown)
+}
+
+addSouthAtlanticLeagueDropdown = (element) => {
+    const southAtlanticLeagueDropdown = document.createElement('div')
+    southAtlanticLeagueDropdown.classList.add('south-atlantic-league-dropdown')
+
+    southAtlanticLeagueDropdown.innerHTML = `<select name="southAtlanticLeagueDropdown" id="southAtlanticLeagueDropdown" onchange="getPark(event)">
+    <option class="button" id="select-team">Select Team</option>
+    <option class="button" id="aberdeen-ironbirds" value="aberdeen-ironbirds">Aberdeen IronBirds</option>
+    <option class="button" id="ashville-tourists" value="ashville-tourists">Ashville Tourists</option>
+    <option class="button" id="bowling-green-hot-rods" value="bowling-green-hot-rods">Bowling Green Hot Rods</option>
+    <option class="button" id="brooklyn-cyclones" value="brooklyn-cyclones">Brooklyn Cyclones</option>
+    <option class="button" id="greensboro-grasshoppers" value="greensboro-grasshoppers">Greensboro Grasshoppers</option>
+    <option class="button" id="greenville-drive" value="greenville-drive">Greenville Drive</option>
+    <option class="button" id="hickory-crawdads" value="hickory-crawdads">Hickory Crawdads</option>
+    <option class="button" id="hudson-valley-renegades" value="hudson-valley-renegades">Hudson Valley Renegades</option>
+    <option class="button" id="jersey-shore-blueclaws" value="jersey-shore-blueclaws">Jersey Shore BlueClaws</option>
+    <option class="button" id="rome-braves" value="rome-braves">Rome Braves</option>
+    <option class="button" id="wilmington-blue-rocks" value="wilmington-blue-rocks">Wilmington Blue Rocks</option>
+    <option class="button" id="winston-salem-dash" value="winston-salem-dash">Winston-Salem Dash</option>
+    </select>`
+
+    queryBox.appendChild(southAtlanticLeagueDropdown)
+}
+
+/////////////////////////////////////////////////////
+//-----------SINGLE A DROPDOWN TEAM LISTS----------//
+/////////////////////////////////////////////////////
+
+addCaliforniaLeagueDropdown = (element) => {
+    const californiaLeagueDropdown = document.createElement('div')
+    californiaLeagueDropdown.classList.add('california-league-dropdown') 
+
+   californiaLeagueDropdown.innerHTML = `<select name="californiaLeagueDropdown" id="californiaLeagueDropdown" onchange="getPark(event)">
+    <option class="button" id="select-team">Select Team</option>
+    <option class="button" id="fresno-grizzlies" value="fresno-grizzlies">Fresno Grizzlies</option>
+    <option class="button" id="inland-empire-66ers" value="inland-empire-66ers">Inland Empire 66ers</option>
+    <option class="button" id="lake-elsinore-storm" value="lake-elsinore-storm">Lake Elsinore Storm</option>
+    <option class="button" id="modesto-nuts" value="modesto-nuts">Modesto Nuts</option>
+    <option class="button" id="rancho-cucamonga-quakes" value="rancho-cucamonga-quakes">Rancho Cucamonga Quakes</option>
+    <option class="button" id="san-jose-giants" value="san-jose-giants">San Jose Giants</option>
+    <option class="button" id="stockton-ports" value="stockton-ports">Stockton Ports</option>
+    <option class="button" id="visalia-rawhide" value="visalia-rawhide">Visalia Rawhide</option>
+    </select>`
+
+    queryBox.appendChild(californiaLeagueDropdown)
+}
+
+addCarolinaLeagueDropdown = (element) => {
+    const carolinaLeagueDropdown = document.createElement('div')
+    carolinaLeagueDropdown.classList.add('carolina-league-dropdown')
+
+    carolinaLeagueDropdown.innerHTML = `<select name="carolinaLeagueDropdown" id="carolinaLeagueDropdown" onchange="getPark(event)">
+    <option class="button" id="select-team">Select Team</option>
+    <option class="button" id="augusta-greenjackets" value="augusta-greenjackets">Augusta GreenJackets</option>
+    <option class="button" id="carolina-mudcats" value="carolina-mudcats">Carolina Mudcats</option>
+    <option class="button" id="charleston-riverdogs" value="charleston-riverdogs">Charleston RiverDogs</option>
+    <option class="button" id="columbia-fireflies" value="columbia-fireflies">Columbia Fireflies</option>
+    <option class="button" id="delmarva-shorebirds" value="delmarva-shorebirds">Delmarva Shorebirds</option>
+    <option class="button" id="down-east-wood-ducks" value="down-east-wood-ducks">Down East Wood Ducks</option>
+    <option class="button" id="fayetteville-woodpeckers" value="fayetteville-woodpeckers">Fayetteville Woodpeckers</option>
+    <option class="button" id="fredericksburg-nationals" value="fredericksburg-nationals">Fredericksburg Nationals</option>
+    <option class="button" id="kannapolis-cannon-ballers" value="kannapolis-cannon-ballers">Kannapolis Cannon Ballers</option>
+    <option class="button" id="lynchburg-hillcats" value="lynchburg-hillcats">Lynchburg Hillcats</option>
+    <option class="button" id="myrtle-beach-pelicans" value="myrtle-beach-pelicans">Myrtle Beach Pelicans</option>
+    <option class="button" id="salem-red-sox" value="salem-red-sox">Salem Red Sox</option>
+    </select>`
+
+    queryBox.appendChild(carolinaLeagueDropdown)
+}
+
+addFloridaStateLeagueDropdown = (element) => {
+    const floridaStateLeagueDropdown = document.createElement('div')
+    floridaStateLeagueDropdown.classList.add('florida-state-league-dropdown')
+
+    floridaStateLeagueDropdown.innerHTML = `<select name="floridaStateLeagueDropdown" id="floridaStateLeagueDropdown" onchange="getPark(event)">
+    <option class="button" id="select-team">Select Team</option>
+    <option class="button" id="bradenton-marauders" value="bradenton-marauders">Bradenton Marauders</option>
+    <option class="button" id="clearwater-threshers" value="clearwater-threshers">Clearwater Threshers</option>
+    <option class="button" id="daytona-tortugas" value="daytona-tortugas">Daytona Tortugas</option>
+    <option class="button" id="dunedin-blue-jays" value="dunedin-blue-jays">Dunedin Blue Jays</option>
+    <option class="button" id="fort-myers-mighty-mussels" value="fort-myers-mighty-mussels">Fort Myers Mighty Mussels</option>
+    <option class="button" id="jupiter-hammerheads" value="jupiter-hammerheads">Jupiter Hammerheads</option>
+    <option class="button" id="lakeland-flying-tigers" value="lakeland-flying-tigers">Lakeland Flying Tigers</option>
+    <option class="button" id="palm-beach-cardinals" value="palm-beach-cardinals">Palm Beach Cardinals</option>
+    <option class="button" id="st-lucie-mets" value="st-lucie-mets">St. Lucie Mets</option>
+    <option class="button" id="tampa-tarpons" value="tampa-tarpons">Tampa Tarpons</option>
+    </select>`
+
+    queryBox.appendChild(floridaStateLeagueDropdown)
 }
 
 ////////////////////////////

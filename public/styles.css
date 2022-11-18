@@ -240,6 +240,72 @@ header {
     background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
 }
 
+.florida-state-league-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
+
+.carolina-league-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
+
+.california-league-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
+
+.midwest-league-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
+
+.northwest-league-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
+
+.south-atlantic-league-dropdown {
+    position: absolute;
+    top: 120px;
+    left: 25px;
+    border-width: 1px;
+    border-color: darkgray;
+    border-top: none;
+    border-left: none;
+    background-image: linear-gradient( rgb(255, 255, 255, .7), rgb(225, 225, 225 .9));
+}
+
 #query-box {
     position: relative;
     height: 315px;
