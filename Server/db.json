@@ -998,7 +998,140 @@
             "opened": "Opened: April 10, 2021",
             "capacity": "Capacity: 12,000",
             "imageURL" : "https://www.kansas.com/latest-news/8yk1f6/picture251342383/alternates/FREE_1140/051121surge_th2.jpg"
+        },
+
+        {
+          "id": 91,
+            "title": "Chukchansi Park",
+            "teamId": "fresno-grizzlies",
+            "team": "Fresno Grizzlies",
+            "city": "Fresno California",
+            "opened": "Opened: May 1, 2002",
+            "capacity": "Capacity: 10,650",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/e/ea/Chukchansi.jpg"
+        },
+
+        {
+          "id": 92,
+            "title": "San Manuel Stadium",
+            "teamId": "inland-empire-66ers",
+            "team": "Inland Empire 66ers",
+            "city": "San Bernadino, California",
+            "opened": "Opened: August 26, 1996",
+            "capacity": "Capacity: 8,000",
+            "imageURL" : "https://www.ticketgateway.com//upload/venue/main_image/1561104492sb3.JPG"
+        },
+
+        {
+          "id": 93,
+            "title": "Lake Elsinore Diamond",
+            "teamId": "lake-elsinore-storm",
+            "team": "Lake Elsinore Storm",
+            "city": "Lake Elsinore, California",
+            "opened": "April 15, 1994",
+            "capacity": "Capacity: 6,066",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/LakeElsinoreDiamond.JPG/1280px-LakeElsinoreDiamond.JPG"
+        },
+
+        {
+          "id": 94,
+            "title": "John Thurman Field",
+            "teamId": "modesto-nuts",
+            "team": "Modesto Nuts",
+            "city": "Modesto, California",
+            "opened": "April 15, 1955",
+            "capacity": "Capacity: 4,000",
+            "imageURL" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScwUiXnWX__PUMsm8jGGeMKps7Yb-X6SY43A&usqp=CAU"
+        },
+
+        {
+          "id": 95,
+            "title": "LoanMart Field",
+            "teamId": "rancho-cucamonga-quakes",
+            "team": "Rancho Cucamonga Quakes",
+            "city": "Rancho Cucamonga, California",
+            "opened": "April 3, 1993",
+            "capacity": "Capacity: 6,588",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/RanchoCucamongaEpicenter.JPG/1920px-RanchoCucamongaEpicenter.JPG"
+        },
+
+        {
+          "id": 96,
+            "title": "Excite Ballpark",
+            "teamId": "san-jose-giants",
+            "team": "San Jose Giants",
+            "city": "San Jose, California",
+            "opened": "March 8, 1942",
+            "capacity": "Capacity: 4,200",
+            "imageURL" : "https://sjsa.org/wp-content/uploads/2020/02/San-Jose-Giants-Excite-Ballpark-scaled.jpg"
+        },
+
+        {
+          "id": 97,
+            "title": "Banner Island Ballpark",
+            "teamId": "stockton-ports",
+            "team": "Stockton Ports",
+            "city": "Stockton, California",
+            "opened": "April 28, 2005",
+            "capacity": "Capacity: 5,200",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/2/27/BIBField.JPG"
+        },
+
+        {
+          "id": 98,
+            "title": "Valley Strong Ballpark",
+            "teamId": "visalia-rawhide",
+            "team": "Visalia Rawhide",
+            "city": "Visalia, California",
+            "opened": "April, 1946",
+            "capacity": "Capacity: 2,468",
+            "imageURL" : "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/cc/2d/52/aerial-view-of-beautiful.jpg?w=1200&h=1200&s=1"
+        },
+
+        {
+          "id": 99,
+            "title": "SRP Park",
+            "teamId": "augusta-greenjackets",
+            "team": "Augusta GreenJackets",
+            "city": "North Augusta, South Carolina",
+            "opened": "April 10, 2018",
+            "capacity": "Capacity: 5,000",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/SRP_Park_Aerial_View.jpg/1280px-SRP_Park_Aerial_View.jpg"
+        },
+
+        {
+          "id": 100,
+            "title": "Five County Stadium",
+            "teamId": "carolina-mudcats",
+            "team": "Carolina Mudcats",
+            "city": "Zubulon, North Carolina",
+            "opened": "July 3, 1991",
+            "capacity": "Capacity: 6,500",
+            "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/5/56/Carolina_Mudcats_at_Five_County_Stadium.jpg"
+        },
+
+        {
+          "id": 101,
+            "title": "The Joe",
+            "teamId": "charleston-riverdogs",
+            "team": "Charleston, RiverDogs",
+            "city": "Charleston, South Carolina",
+            "opened": "April 6, 1997",
+            "capacity": "Capacity: 6,000",
+            "imageURL" : "https://www.charleston-sc.gov/00000000-0000-0000-0000-000000000000/522/Joe%20Riley%202.jpg"
+        },
+
+        {
+          "id": 102,
+            "title": "Arthur W. Perdue Stadium",
+            "teamId": "delmarva-shorebirds",
+            "team": "Delmarva Shorebirds",
+            "city": "Salisbury, Maryland",
+            "opened": "April 17, 1996",
+            "capacity": "Capacity: 5,200",
+            "imageURL" : "https://mapio.net/images-p/48610904.jpg"
         }
+
 
 
 
